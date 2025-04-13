@@ -1,8 +1,10 @@
-Discription : 
+## Discription :
+
 in this project ,I've build a basic module is designed to convert Arabic graphemes (spelling) to phonemes (pronunciation).
 grapheme to phoneme converter will may help and can be used in the process of speech synthesis of Arabic language
 
-project rules: 
+## project rules: 
+
 our project contains 2 modules 
 1-The normalization module consists of :
 Handling gemination 
