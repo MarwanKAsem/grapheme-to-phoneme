@@ -58,8 +58,8 @@ for token in tokens:
                                                             # and we directly append the corresponding word to the converted_numbers list.
         
         else:                                               # If the number is not found in ARABIC_ONES, it means the number is 20 or greater. In this case, we calculate the tens and ones separately
-            tens = (number // 10) * 10                      # tens represents the nearest multiple of 10 less than or equal to the given number.    يعني الرقم الي داخل الاول هيقسمة بالفلور علشان يشوف الفئة بعدها هيضربة *10 علشان الفئة تنتمي للعشرات                 
-            ones = number % 10                              # ones represents the remaining value after subtracting the tens. هنا هيجبلي الارقام الي باقيه لو فيه 
+            tens = (number // 10) * 10                      # tens represents the nearest multiple of 10 less than or equal to the given number.                 
+            ones = number % 10                              # ones represents the remaining value after subtracting the tens.
             if ones == 0:
                 converted_numbers.append(ARABIC_TENS[tens]) # If the remaining ones is equal 0, it means the number is a multiple of 10, and we append the word for the tens directly to the converted_numbers list.
             else:
